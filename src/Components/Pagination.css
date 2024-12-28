@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 20px;
+  user-select: none;
+}
+.pagination li {
+  position: relative;
+  width: 55px;
+  height: 50px;
+  border: 1px solid #dbdbdb;
+  cursor: pointer;
+}
+.pagination li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #0430e0fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.pagination li span:hover {
+  background-color: #dbdbdb;
+}
+.page-link.active {
+  color: #fff;
+  background-color: #0430e0fe;
+}
